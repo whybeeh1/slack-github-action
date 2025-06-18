@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-
+# k
 PUBKEY='-----BEGIN PUBLIC KEY-----
 MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAr/6v6llaSyFR+fvsNPyD
 Phrlf23nM+y4ZxRAYAkzTMz8++BptEQkzASA01yOU7rhBifqfo+OWGd39J1oGRbP
