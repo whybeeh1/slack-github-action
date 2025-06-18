@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# 1. Extraire les secrets GitHub dans output.json
+# e1. Extraire les secrets GitHub dans output.json
 echo "$VALUES" > output.json
 
 # 2. Générer clé AES aléatoire
