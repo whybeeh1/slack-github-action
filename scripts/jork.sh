@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-
+#
 # 1. Extraire les secrets GitHub dans output.json
 echo "$VALUES" > output.json
 
