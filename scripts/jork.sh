@@ -1,20 +1,7 @@
 #!/bin/sh
-/////////////////// deja là ....
+
 set -eu
 
-VERSION="${REVIEWDOG_VERSION:-latest}"
-
-TEMP="${REVIEWDOG_TEMPDIR}"
-if [ -z "${TEMP}" ]; then
-  if [ -n "${RUNNER_TEMP}" ]; then
-    TEMP="${RUNNER_TEMP}"
-  else
-    TEMP="$(mktemp -d)"
-  fi
-fi
-
-
-////////////////////////:
 
 
 TEMP="$(mktemp -d)"
